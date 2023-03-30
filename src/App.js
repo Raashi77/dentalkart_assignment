@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import './App.css';
 import Cart from './Cart';
 import { productImages } from './config';
@@ -144,11 +145,11 @@ function App() {
       image: productImages.product20,
     }
 ]
-  console.log(products.length)
+   
   return (
-    <div>
+    <Box sx={{background:"#f1f3f6"}}>
       <Cart />
-    </div>
+    </Box>
   );
 }
 
